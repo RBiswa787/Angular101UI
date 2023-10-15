@@ -1,0 +1,32 @@
+nav {
+    display: flex;
+    height: 4em;
+    /* background-color: #e9ecef; */
+    background: linear-gradient(to bottom, #dfe9f3 0%, white 100%);
+}
+.container-fluid {
+    display: flex;
+    width: 70%;
+    align-items: center;
+}
+.navbar-brand {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+}
+span{
+    display: flex;
+    align-items: center;
+}
+#logo {
+    margin-right: 4%;
+}
+#logo-text{
+    font-size: 1em;
+}
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1.5em
+}

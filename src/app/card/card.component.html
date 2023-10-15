@@ -1,0 +1,15 @@
+<div class="card" [ngStyle]="{'border': cardType == '0' ? '' :'1px solid #007bff'}">
+    <div class="card-header" [ngStyle]="{'background-color': cardType == '0' ? '' :'#007bff', 'color': cardType == '0' ? '' : 'white'}">
+      {{header}}
+    </div>
+    <div class="card-body">
+      <p class="card-title"><span id="zero">${{price}}</span>/mo</p>
+      <p class="card-text">
+        <span>{{span1}}</span>
+        <span>{{span2}}</span>
+        <span>{{span3}}</span>
+        <span>{{span4}}</span>
+      </p>
+      <a (click)="alertFunc()" href="#" id="card-button" [ngClass]="buttonType == '0' ? 'btn btn-outline-primary' : 'btn btn-primary' ">{{buttonText}}</a>
+    </div>
+  </div> 

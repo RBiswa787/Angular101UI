@@ -1,0 +1,17 @@
+<div class="card">
+    <div class="card-header">
+        <span class="subtitle">
+            {{content.header}}
+        </span>
+        <span class="head">
+            ${{content.price}}/<span class="month">month</span>
+        </span>
+    </div>
+    <div class="content" >
+        <div class="row" *ngFor = "let entry of content.data | keyvalue">
+            <div class="icon" style="font-weight: bold;" >{{entry.value}}</div>
+            <div class="text">{{entry.key}}</div>
+        </div>
+    </div>
+    <button class="button">BUTTON</button>
+</div>

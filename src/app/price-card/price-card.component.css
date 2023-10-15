@@ -1,0 +1,87 @@
+.card{
+    display: flex;
+    width: 20em;
+    height: 30em;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    border: 2px solid white;
+    padding: 2%;
+}
+.card-header{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 7em;
+    background-color: white;;
+    border-bottom: 1px solid lightgrey;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.subtitle{
+    display: flex;
+    text-align: center;
+    font-size: 1.0em;
+    color: grey;
+    font-weight: 500;
+}
+.head{
+    display: flex;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 500;
+}
+.month{
+    display: flex;
+    font-size: 0.4em;
+    align-self: flex-end;
+    padding-bottom: 5%;
+    font-weight: 400;
+}
+.button{
+    border: none;
+    width: 85%;
+    height: 3.3em;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.9em;
+    font-weight: 500;
+    background-color: #5599fe;
+}
+.button:hover {
+    background-color: #1668e3;
+}
+.content {
+    display: flex;
+    width: 95%;
+    height: 25em;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.row {
+    display: flex;
+    width: 80%;
+    height: auto;
+    /* justify-content: space-between; */
+}
+.icon{
+    display: flex;
+    height: 100%;
+    width: 3em;;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.text{
+    display: flex;
+    height: 100%;
+    width: 10em;
+    align-items: center;
+}

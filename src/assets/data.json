@@ -1,0 +1,47 @@
+[
+    {
+        "enable"  : 0,
+        "header" : "FREE",
+        "price" : 0,
+        "data": {
+            "Single User" : 1,
+"5GB Storage" : 1,
+"Unlimited Public Projects" : 1,
+"Community Access" : 1,
+"Unlimited Private Projects" : 0,
+"Dedicated Phone Support" : 0,
+"Free Subdomain" : 0,
+"Monthly Status Reports" : 0
+        }
+    },
+    {
+        "enable"  : 1,
+        "header" : "PLUS",
+        "price" : 9,
+        "data": {
+            "5 Users" : 1,
+"50GB Storage" : 1,
+"Unlimited Public Projects" : 1,
+"Community Access" : 1,
+"Unlimited Private Projects" : 1,
+"Dedicated Phone Support" : 1,
+"Free Subdomain" : 1,
+"Monthly Status Reports" : 0
+        }
+    },
+    {
+        "enable"  : 1,
+        "header" : "PRO",
+        "price" : 49,
+        "data": {
+            "Unlimited Users" : 1,
+"50GB Storage" : 1,
+"Unlimited Public Projects" : 1,
+"Community Access" : 1,
+"Unlimited Private Projects" : 1,
+"Dedicated Phone Support" : 1,
+"Free Subdomain" : 1,
+"Monthly Status Reports" : 1
+        }
+    }
+]

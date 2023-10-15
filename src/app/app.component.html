@@ -1,0 +1,58 @@
+<app-navbar></app-navbar>
+
+<div id="first-container" class="container-fluid">
+  Pricing
+</div>
+<div id="second-container" class="container-fluid">
+  Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.
+</div>
+
+<div id="card-container" class="container-fluid">
+  <app-card header="Free" price="0" span1="10 users included" span2="2 GB of storage" span3="Email support" span4="Help center access"
+   buttonText="Sign up for free">
+  </app-card>
+  <app-card header="Pro" price="15" span1="20 users included" span2="10 GB of storage" span3="Priority email support" span4="Help center access"
+   buttonText="Get started" buttonType = "1">
+  </app-card>
+  <app-card header="Enterprise" price="29" span1="30 users included" span2="15 GB of storage" span3="Phone and email support" span4="Help center access"
+   buttonText="Contact us" buttonType = "1" cardType="1">
+  </app-card>
+</div>
+<div id="price-parent" class="container-fluid">
+<app-price-card *ngFor="let item of data" [content]="item"></app-price-card>
+</div>
+<div class="parent">
+  <div class="hide"></div>
+  <div class="slider">
+      <div #list class="list">
+          <div #item class="item">
+              <img src="../assets/img1.jpg" alt="">
+          </div>
+          <div #item class="item">
+              <img src="../assets/img2.jpg" alt="">
+          </div>
+          <div #item class="item">
+              <img src="../assets/img3.jpg" alt="">
+          </div>
+          <div #item class="item">
+              <img src="../assets/img4.jpg" alt="">
+          </div>
+          <div #item class="item">
+              <img src="../assets/img5.jpg" alt="">
+          </div>
+      </div>
+
+      <div class="buttons">
+          <button #prev id="prev" (click)="prevFunc()"><</button>
+          <button #next id="next" (click)="nextFunc()">></button>
+      </div>
+      <ul #dots class="dots">
+          <li class="active"></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+      </ul>
+  </div>
+ 
+  </div>
