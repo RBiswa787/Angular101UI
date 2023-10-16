@@ -4,4 +4,4 @@
 - Angular Price Template v2.0
 - Angular Carousel Implementation
 
-### - Biswadeep
+### - Biswadeep Ray
